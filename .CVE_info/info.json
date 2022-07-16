@@ -1,0 +1,10 @@
+{
+    "buggy_file_path": "quartz-core/src/main/java/org/quartz/xml/XMLSchedulingDataProcessor.java",
+    "buggy_method":[[162,214]],
+    "buggy_line":[[177]],
+    "bug_type": "insertion",
+    "compile_cmd": "mvn clean compile -pl quartz-core",
+    "test_cmd" : "./mvnw clean test -pl quartz-core -Dtest=/XMLSchedulingDataProcessorTest",
+    "CVE": "CVE-2019-13990",
+    "github_url":"https://github.com/quartz-scheduler/quartz"
+}
